@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dice Roller Test</title>
+</head>
+<body>
+    <h1>Dice Roller API Test</h1>
+    <button onclick="testRollDice()">Roll Dice</button>
+    <p>Roll Result: <span id="roll-result"></span></p>
+
+    <script>
+        async function testRollDice() {
+            const response = await fetch('https://your-azure-app-service-url/roll-dice');
+            const data = await response.json();
+            document.getElementById('roll-result').innerText = data.roll;
+        }
+    </script>
+</body>
+</html>
