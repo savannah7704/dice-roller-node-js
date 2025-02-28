@@ -5,7 +5,7 @@ const port = process.env.PORT || 3000;
 
 app.use(cors());
 
-app.get('/roll-die', (req, res) => {
+app.get('/roll-result', (req, res) => {
     const roll = Math.floor(Math.random() * 6) + 1;
     res.json({ roll });
 });
