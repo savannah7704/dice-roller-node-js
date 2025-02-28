@@ -1,15 +1,22 @@
 {
-    "name": "dice-roller-node-js",
-    "description": "Dice Roller Node.js application for Azure App Service",
-    "version": "0.0.1",
-    "private": true,
-    "license": "MIT",
-    "author": "Microsoft",
-    "scripts": {
-        "start": "node server.js"
-    },
-    "dependencies": {
-        "cors": "^2.8.5",
-        "express": "^4.18.2"
-    }
+  "name": "dice-roller-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/savannah7704/dice-roller-node-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/savannah7704/dice-roller-node-js/issues"
+  },
+  "homepage": "https://github.com/savannah7704/dice-roller-node-js#readme"
 }
