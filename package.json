@@ -1,0 +1,15 @@
+{
+    "name": "dice-roller-node-js",
+    "description": "Dice Roller Node.js application for Azure App Service",
+    "version": "0.0.1",
+    "private": true,
+    "license": "MIT",
+    "author": "Microsoft",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.18.2"
+    }
+}
